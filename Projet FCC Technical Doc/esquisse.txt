@@ -1,0 +1,45 @@
+1 / Main : id="main-doc" qui contient le contenu principal 
+de la page (documentation technique)
+
+2 / Dans le id="main-doc", je peux voir plusieurs <section class="main-section"> (minimum 5)
+
+3/  Dans chaque section, il y a titre ou introduction entre une balise <header>
+
+4/ Chaque section doit avoir un id correspondant au texte à l'interieur du header ex <header>Prout and Co</header>     <section class="main-section" id="Prout_and_Co">blabla</section>
+(attention au majuscules et au espaces (remplacés ici par des underscores
+
+5/ 10 x <p>
+
+6/ 5 x <code>
+
+7/ 5 x <li>
+
+8/ un nav avec id="navbar"
+
+9/ la nav bar a un header (comme un titre)
+
+10/ Les <a> de la nav bar doivent avoir l'id="nav-link
+
+11/ le header de la navbar doit être placé avant les <a>
+
+12/ les textes des <a> doivent correspondre au header (titre) de chaque sections (attention aux espaces et majuscules (pas remplacés ici par des underscores))
+
+13/ Pour la nav bar je dois pouvoir  jump sur chaque section correspondante
+
+14/ La nav bar doit etre à gauche et fixed
+
+15/ Utiliser au moins une media query
+
+
+
+
+Sujet choisi : basic html
+couleurs principales: #A9A9A9 (fond), #ff9934 (titres), blanc (textes et bordures)
+Disposition : modèle site fcc
+
+
+ECRITURE DU SITE: 
+
+<main id="main-doc>
+	<section class="main-section" id="Introduction">
+		<header>
